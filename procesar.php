@@ -2,12 +2,10 @@
 
 echo "<h1>Pedido recibido en Salteneria El Horno</h1>";
 
-//  datos enviados por el formulario
 $nombre = $_POST['nombre'];
 $correo = $_POST['correo'];
 $pedido = $_POST['pedido'];
 
-// Mostrar los datos recibidos
 echo "<p>Nombre: " . htmlspecialchars($nombre) . "</p>";
 echo "<p>Correo: " . htmlspecialchars($correo) . "</p>";
 echo "<p>Pedido: " . htmlspecialchars($pedido) . "</p>";

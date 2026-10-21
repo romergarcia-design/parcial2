@@ -2,7 +2,7 @@
 
 echo "<h1>Pedido recibido en Salteneria El Horno</h1>";
 
-// Recibir los datos enviados por el formulario
+//  datos enviados por el formulario
 $nombre = $_POST['nombre'];
 $correo = $_POST['correo'];
 $pedido = $_POST['pedido'];
@@ -12,10 +12,10 @@ echo "<p>Nombre: " . htmlspecialchars($nombre) . "</p>";
 echo "<p>Correo: " . htmlspecialchars($correo) . "</p>";
 echo "<p>Pedido: " . htmlspecialchars($pedido) . "</p>";
 
-// Ejemplo de arreglo y recorrido con foreach
 $productos = [
-    "Salteña de pollo - Bs 6",
-    "Docena de salteñas - Bs 65",
+    "Salteña de pollo - Bs 8",
+    "Salteña mixto - Bs 12",
+    "Salteña charque - Bs 12",
     "Refresco de mocochinchi - Bs 5"
 ];
 
